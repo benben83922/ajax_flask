@@ -38,4 +38,7 @@ def barchart():
 def map():
     return render_template('map.html')
 
+@page_bp.route('/user')
+def user():
+    return render_template('user.html')
 
